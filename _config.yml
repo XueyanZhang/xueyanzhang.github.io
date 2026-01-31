@@ -1,0 +1,9 @@
+title: Xueyan Zhang
+description: Personal website of Xueyan Zhang
+theme: null
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:title/

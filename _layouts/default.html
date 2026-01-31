@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Font Awesome for Social Media Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}">Xueyan Zhang (张雪燕)</a>
+      </div>
+      <nav class="site-nav">
+        <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fas fa-blog"></i></a>
+        <a href="#"><i class="fas fa-graduation-cap"></i></a> <!-- Google Scholar -->
+        <a href="https://github.com/xueyanz"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; {{ 'now' | date: "%Y" }} Xueyan Zhang. Powered by Jekyll.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

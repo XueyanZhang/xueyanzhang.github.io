@@ -80,9 +80,9 @@ a {
   .profile-image {
     flex: 0 0 150px;
     img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%; // Circular avatar or remove for square
+      width: 250px;
+      height: 300px;
+      border-radius: 5%; // Circular avatar or remove for square
       object-fit: cover;
       border: 1px solid #eee;
     }

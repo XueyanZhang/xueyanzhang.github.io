@@ -16,7 +16,7 @@ title: Home
   </div>
   <div class="profile-image">
     <!-- Placeholder for an image. In real usage, put a file in assets/images/ -->
-    <img src="https://via.placeholder.com/150" alt="Xueyan Zhang">
+    <img src="{{ '/assets/images/profile_photo.JPG' | relative_url }}" alt="Xueyan Zhang" style="max-width: 200px;">
   </div>
 </div>
 

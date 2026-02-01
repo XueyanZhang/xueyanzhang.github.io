@@ -7,10 +7,13 @@ title: Home
 
 ## About Me
 
-Hi  
-I am **Xueyan Zhang**.  
+I am **XYZ**.  
 I work in AI compiler.   
-I am interested in AI End-to-End optimization. 
+I focus on AI end-to-end. 
+ 
+"Application / Model / AI Infra / Hardware / Power"
+
+"LLM latent space programming language sounds exciting." 
 
 ---
 
@@ -52,20 +55,16 @@ I am interested in AI End-to-End optimization.
 - **[iMarkAi.com](https://imarkai.com/)**  
   *Agentic bookmark with semantic search & web interactions*  
 
-  iMark is a commercial-grade Chrome extension and web platform designed to tame information chaos. It goes beyond simple bookmarking by allowing users to interact with their saved content through natural language.  
-  - **Commercial Launch**: Successfully designed, architected, and published to the Chrome Web Store, featuring end-to-end Stripe billing for subscriptions.  
-  - **High-Performance AI**: Built a custom RAG pipeline using Pinecone and Google Gemini AI, achieving sub-second semantic retrieval with over 95% precision across unstructured web data.  
+  **iMark bookmark** = RAG + Agentic Tab Automation > Chrome Extension  
+  **Tech Stack** = Vector DB (Pinecone) + LLM (Google Gemini) + Payment (Stripe) + Users (Supabase)
 
 - **ArchiValley.AI**  
   *Web-based AI architectural renderer*  
 
-  ArchiValley addresses the slow and expensive bottleneck of traditional architectural visualization. This AI-powered platform transforms 3D models and rough sketches into high-fidelity renders in seconds, not hours.  
-  - **Industry Impact**: Drastically reduces the visualization cycle, enabling architects to iterate faster and present polished concepts instantly.  
+  **Industry Impact**: ArchiValley addresses the slow and expensive bottleneck of traditional architectural visualization. This AI-powered platform transforms 3D models and rough sketches into high-fidelity renders in seconds.  
 
 - **Tarot: Starry Guidance**  
   *Personalized Tarot Reader on WeChat*  
 
   A full-stack mobile mini-program that combines traditional tarot with modern LLM interpretation.  
-  - **Rapid Growth**: Developed and launched in under a month, attracting over 500 users in the first 90 days.  
-  - **Tech Stack**: Integrated web scraping for card data, cloud databases for user management, and Large Language Models to provide unique, personalized readings for every session.
-
+  **Rapid Growth**: Developed and launched in under a month, attracting over 500 users in the first 90 days.  

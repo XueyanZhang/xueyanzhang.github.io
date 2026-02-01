@@ -20,12 +20,12 @@ Application / Model / Infra / Hardware / Resources
 ## Selected work
 
 - **UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT** <br>
-  Xueyan Zhang, Jinman Zhao, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang <br>
+  Xueyan Zhang\*, Jinman Zhao\*, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang <br>
   Annual Meeting of the Association for Computational Linguistics (ACL 2025) <br>
 [anthology](https://aclanthology.org/2025.acl-long.575/) | [arXiv](https://arxiv.org/abs/2505.20154)
 
 - **Tiny Budgets, Big Gains: Parameter Placement Strategy in PEFT** <br>
-  Xueyan Zhang, Jinman Zhao, et al. <br>
+  Xueyan Zhang\*, Jinman Zhao\*, et al. <br>
   Conference on Empirical Methods in Natural Language Processing (EMNLP 2025) <br>
   [anthology](https://aclanthology.org/2025.emnlp-main.321/)
 
@@ -34,12 +34,12 @@ Application / Model / Infra / Hardware / Resources
   4th Workshop on Adverse Impacts and Collateral Effects of AI Technologies (AiOfAi) @ WWW 2026 <br>
 
 - **Large Language Model is not a (Multilingual) Compositional Relation Reasoner** <br>
-  Xueyan Zhang, Jinman Zhao <br>
+  Xueyan Zhang\*, Jinman Zhao\* <br>
   First Conference on Language Modeling (COLM 2024) <br>
   [arXiv](https://arxiv.org/abs/2403.02615) | [openreview](https://openreview.net/forum?id=wLQ3I0F1oj)
 
 - **Can Language Model Understand Word Semantics as A Whole?** <br>
-  Xueyan Zhang, Jinman Zhao, Xingyu Wang, et al. <br>
+  Xueyan Zhang\*, Jinman Zhao\*, Xingyu Wang, et al. <br>
   An empirical study quantifying the mismatch between internal state knowledge and external model outputs. <br>
   [arXiv](https://arxiv.org/abs/2409.13972)
 

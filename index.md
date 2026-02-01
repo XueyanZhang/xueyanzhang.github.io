@@ -11,7 +11,7 @@ I am **XYZ**.
 I work in AI compiler.   
 I focus on AI end-to-end. 
  
-"Application / Model / AI Infra / Hardware / Power"
+Application / Model / Infra / Hardware / Resources
 
 "LLM latent space programming language sounds exciting." 
 
@@ -30,7 +30,7 @@ I focus on AI end-to-end.
   [anthology](https://aclanthology.org/2025.emnlp-main.321/)
 
 - **Ethical and Robust Large Language Models** <br>
-  Xueyan Zhang, et al. <br>
+  Linbo Cao, Jinman Zhao, Xueyan Zhang, et al. <br>
   4th Workshop on Adverse Impacts and Collateral Effects of AI Technologies (AiOfAi) @ WWW 2026 <br>
 
 - **Large Language Model is not a (Multilingual) Compositional Relation Reasoner** <br>

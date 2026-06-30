@@ -52,6 +52,12 @@ Application / Model / Infra / Hardware / Resources
 
 ## Projects
 
+- **[OpenTikZ](https://opentikz.org)**  
+  *Open-source TikZ figure library & AI agent skill for academic papers*  
+
+  The "Flaticon for academic TikZ" — describe a figure (system diagrams, neural-net architectures, pipelines) and get paper-ready, editable TikZ back. Ships as a Claude Code plugin/skill plus a browsable icon & template gallery.  
+  **Tech Stack** = TikZ/LaTeX + Claude Code Skill + [GitHub](https://github.com/opentikz/opentikz)
+
 - **[iMarkAi.com](https://imarkai.com/)**  
   *Agentic bookmark with semantic search & web interactions*  
 

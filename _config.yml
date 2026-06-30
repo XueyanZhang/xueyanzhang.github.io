@@ -1,9 +1,11 @@
 title: Xueyan Zhang
 description: Personal website of Xueyan Zhang
+url: "https://xueyanzhang.github.io"
 theme: null
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 markdown: kramdown
 permalink: /:title/

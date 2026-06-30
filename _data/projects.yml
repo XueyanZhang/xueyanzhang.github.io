@@ -1,0 +1,38 @@
+- title: "OpenTikZ"
+  url: "https://opentikz.org"
+  tagline: "Open-source TikZ figure library & AI agent skill for academic papers"
+  thumb: "/assets/images/opentikz2-thumb.png"
+  lines:
+    - 'The "Flaticon for academic TikZ" — describe a figure (system diagrams, neural-net architectures, pipelines) and get paper-ready, editable TikZ back.'
+    - '<strong>Tech Stack</strong> = TikZ/LaTeX + Claude Code Skill + <a href="https://github.com/opentikz/opentikz">GitHub</a>'
+
+- title: "iMarkAi.com"
+  url: "https://imarkai.com/"
+  tagline: "Agentic bookmark with semantic search & web interactions"
+  thumb: "/assets/images/imark2.png"
+  lines:
+    - '<strong>iMark bookmark</strong> = RAG + Agentic Tab Automation &gt; Chrome Extension'
+    - '<strong>Tech Stack</strong> = Vector DB (Pinecone) + LLM (Google Gemini) + Payment (Stripe) + Users (Supabase)'
+
+- title: "ArchiValley.AI"
+  url: ""
+  tagline: "Web-based AI architectural renderer"
+  thumb_split:
+    - "/assets/images/archivalley1-thumb.png"
+    - "/assets/images/archivalley2-thumb.png"
+  lines:
+    - '<strong>Industry Impact</strong>: ArchiValley addresses the slow and expensive bottleneck of traditional architectural visualization. This AI-powered platform transforms 3D models and rough sketches into high-fidelity renders in seconds.'
+
+- title: "Tarot: Starry Guidance"
+  url: ""
+  tagline: "Personalized Tarot Reader on WeChat"
+  carousel:
+    - "/assets/images/tarot1-thumb.png"
+    - "/assets/images/tarot2-thumb.png"
+    - "/assets/images/tarot3-thumb.png"
+    - "/assets/images/tarot4-thumb.png"
+    - "/assets/images/tarot5-thumb.png"
+    - "/assets/images/tarot6-thumb.png"
+  lines:
+    - 'A full-stack mobile mini-program that combines traditional tarot with modern LLM interpretation.'
+    - '<strong>Rapid Growth</strong>: Developed and launched in under a month, attracting over 500 users in the first 90 days.'

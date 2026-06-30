@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% seo %}
+  <title>XueyanZ</title>
+  {% seo title=false %}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon-180.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <!-- Font Awesome for Social Media Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -18,6 +21,7 @@
     <div class="wrapper">
       <div class="site-title">
         <a href="{{ '/' | relative_url }}" style="font-weight: normal;">
+          <img src="{{ '/assets/images/XYZsticker.PNG' | relative_url }}" alt="XYZ sticker" class="site-logo">
           <div>Xueyan Zhang</div>
           <!-- <div>张学焱</div> -->
         </a>
@@ -27,12 +31,6 @@
           style="font-weight: bold; font-size: 1rem; vertical-align: middle;">Blog</a>
         <a href="{{ '/assets/files/CV_XueyanZhang.pdf' | relative_url }}"
           style="font-weight: bold; font-size: 1rem; vertical-align: middle;">CV</a>
-        <a href="mailto:xueyanzhang27+githubpages@gmail.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://scholar.google.ca/citations?user=9ZlGB5EAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i></a>
-        <!-- Google Scholar -->
-        <a href="https://github.com/xueyanzhang"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/xueyanzhang27/"><i class="fab fa-linkedin"></i></a>
-        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
       </nav>
     </div>
   </header>

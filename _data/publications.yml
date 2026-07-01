@@ -10,6 +10,12 @@
   selected: false
   links: []
 
+- title: "Syntactic Prediction through Reinforcement Learning"
+  venue: "Under submission"
+  thumb: "/assets/images/syntaxr1-thumb.png"
+  selected: false
+  links: []
+
 - title: "UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT"
   authors: "Xueyan Zhang*, Jinman Zhao*, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL 2025)"

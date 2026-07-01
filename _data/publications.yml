@@ -1,11 +1,11 @@
-- title: "Fusion-R1: Empower PyTorch Graph Fusion via LLM with Reinforcement Learning"
-  venue: "Under submission"
+- title: "Fusion R1: Empower PyTorch Graph Fusion via LLM with Reinforcement Learning"
+  venue: "Pending submission to NeurIPS"
   thumb: "/assets/images/fusionr1-thumb.png"
   selected: false
   links: []
 
-- title: "IntentEval: Evaluating Whether Large Language Models Answer What Users Actually Mean"
-  venue: "Under submission"
+- title: "IntentEval: Whether Large Language Models Answer What Users Actually Mean"
+  venue: "Pending submission to EMNLP"
   thumb: "/assets/images/intenteval-thumb.png"
   selected: false
   links: []
@@ -54,9 +54,9 @@
     - label: "openreview"
       url: "https://openreview.net/forum?id=wLQ3I0F1oj"
 
-- title: "Can Language Model Understand Word Semantics as A Whole?"
+- title: "Word Semantics Consistency in Language Models"
   authors: "Xueyan Zhang*, Jinman Zhao*, Xingyu Wang, et al."
-  venue: "An empirical study quantifying the mismatch between internal state knowledge and external model outputs."
+  venue: "Quantified the internal-external knowledge mismatch for word semantics across Encoder, Decoder, and Encoder-Decoder LMs."
   thumb: "/assets/images/paper-thumb-placeholder.svg"
   selected: false
   links:
@@ -65,7 +65,7 @@
 
 - title: "On the Caching Schemes to Speed Up Program Reduction"
   authors: "Yongqiang Tian, Xueyan Zhang, Yiwen Dong, et al."
-  venue: "ACM Transactions on Software Engineering and Methodology (TOSEM 2023)"
+  venue: "ACM Transactions on Software Engineering and Methodology (TOSEM 2024)"
   thumb: "/assets/images/rcc-thumb.png"
   selected: false
   links:

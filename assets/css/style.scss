@@ -187,30 +187,70 @@ a {
   display: none;
 }
 
-.pub-legend {
-  font-size: 0.85rem;
-  color: #888;
-  margin-top: -10px;
+// Sub-group label (Preprints / Conference / Reviewer ...); content below is indented under it
+.pub-group,
+.sub-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #222;
+  margin: 28px 0 14px;
+  padding-left: 10px;
+  border-left: 3px solid $link-color;
+  line-height: 1.2;
 }
 
-.pub-group {
-  font-size: 1.15rem;
-  margin: 25px 0 15px;
+.pub-list,
+.section-body > ul,
+.section-body > table,
+.section-body > .teach-school {
+  margin-left: 22px;
+}
+
+.muted {
+  color: #888;
 }
 
 // Academic Services & Teaching
-.svc-line {
-  margin: 6px 0;
-}
-
-.teach-list {
-  padding-left: 20px;
+.svc-list {
+  padding-left: 18px;
+  margin-top: 0;
 
   li {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+  }
+}
+
+.teach-table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: calc(100% - 22px);
+
+  td {
+    padding: 6px 16px 6px 0;
+    vertical-align: top;
   }
   .teach-term {
+    white-space: nowrap;
     color: #888;
+  }
+  .teach-code {
+    white-space: nowrap;
+    color: #888;
+    padding-right: 0;
+  }
+}
+
+.teach-school {
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  .pub-list,
+  .section-body > ul,
+  .section-body > table,
+  .section-body > .teach-school {
+    margin-left: 0;
   }
 }
 

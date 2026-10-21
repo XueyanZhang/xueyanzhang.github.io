@@ -89,7 +89,6 @@ My research focuses on efficient LLMs across the stack, from training (PEFT, opt
 
 ## Publications
 
-<p class="pub-legend">* co-first author</p>
 
 {% assign pub_groups = "preprint:Preprints,conference:Conference,journal:Journal,workshop:Workshop" | split: "," %}
 {% for group in pub_groups %}{% assign g = group | split: ":" %}{% assign pubs = site.data.publications | where: "type", g[0] %}{% if pubs.size > 0 %}
@@ -107,6 +106,32 @@ My research focuses on efficient LLMs across the stack, from training (PEFT, opt
 {% endfor %}
 </div>
 {% endif %}{% endfor %}
+
+
+---
+
+## Academic Services
+
+<div class="section-body">
+<p class="sub-label">Reviewer</p>
+<ul class="svc-list">
+{% for v in site.data.services %}<li>{{ v.name }} <span class="muted">({{ v.short }})</span></li>
+{% endfor %}</ul>
+</div>
+
+---
+
+## Teaching
+
+<div class="section-body">
+<table class="teach-table">
+{% for t in site.data.teaching %}<tr>
+  <td class="teach-term">{{ t.term }}</td><td>{{ t.role }}</td><td>{{ t.course }}</td><td class="teach-code">{{ t.code }}</td>
+</tr>
+{% endfor %}</table>
+<p class="muted teach-school">University of Waterloo</p>
+</div>
+
 
 ---
 
@@ -148,19 +173,3 @@ My research focuses on efficient LLMs across the stack, from training (PEFT, opt
   });
 })();
 </script>
-
-
----
-
-## Academic Services
-
-{% for s in site.data.services %}<p class="svc-line"><strong>{{ s.role }}</strong>: {{ s.venues }}</p>
-{% endfor %}
-
----
-
-## Teaching
-
-<ul class="teach-list">
-{% for t in site.data.teaching %}<li><strong>{{ t.role }}</strong>, {{ t.course }}, {{ t.school }}{% if t.term != "" %} <span class="teach-term">({{ t.term }})</span>{% endif %}</li>
-{% endfor %}</ul>

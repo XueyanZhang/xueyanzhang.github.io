@@ -1,2 +1,6 @@
-- role: "Reviewer"
-  venues: "AAAI 2027, ACL ARR 2026, ICLR 2025"
+- name: "AAAI Conference on Artificial Intelligence"
+  short: "AAAI'27"
+- name: "ACL Rolling Review"
+  short: "ARR'26"
+- name: "International Conference on Learning Representations"
+  short: "ICLR'25"

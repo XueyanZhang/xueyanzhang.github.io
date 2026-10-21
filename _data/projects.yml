@@ -1,3 +1,11 @@
+- title: "OpenMarkdown"
+  url: "https://openmarkdown.dev/"
+  tagline: "Local-first Markdown editor with AI-agent co-editing"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  lines:
+    - 'A desktop editor with a <strong>Rust</strong> core that exposes a <strong>Model Context Protocol (MCP)</strong> interface, so humans and AI agents edit the same document in real time without losing each other&rsquo;s changes.'
+    - '<strong>Launch</strong>: reached #5 on Product Hunt.'
+
 - title: "OpenTikZ"
   url: "https://opentikz.org"
   tagline: "Open-source TikZ figure library & AI agent skill for academic papers"

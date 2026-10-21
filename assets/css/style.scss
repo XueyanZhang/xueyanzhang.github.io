@@ -133,10 +133,29 @@ a {
 }
 
 .quote-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   text-align: center;
   margin: 30px 0;
 
+  .quote-arrow {
+    flex: 0 0 auto;
+    background: none;
+    border: none;
+    padding: 0 6px;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #bbb;
+    cursor: pointer;
+    &:hover {
+      color: $link-color;
+    }
+  }
+
   blockquote {
+    flex: 0 1 auto;
     margin: 0;
     font-size: 1.2rem;
     font-style: italic;
@@ -167,6 +186,12 @@ a {
 
 .pub-list.hidden {
   display: none;
+}
+
+.pub-legend {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: -10px;
 }
 
 // Shared thumbnail-row layout, used by Publications and Projects entries

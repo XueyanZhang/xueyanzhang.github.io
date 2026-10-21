@@ -31,10 +31,20 @@ Application
 </div>
 </div>
 
+## Biography
+
+I am currently a Research Assistant at the University of Toronto, working with [Prof. Gerald Penn](https://www.cs.toronto.edu/~gpenn/) and Jinman Zhao. Before that, I spent 3+ years as a Senior NPU Compiler Engineer at the Toronto Heterogeneous Compiler Lab, optimizing LLMs on a production NPU with LLVM/MLIR.
+
+I received my MMath in Computer Science from the University of Waterloo, advised by [Prof. Chengnian Sun](https://cs.uwaterloo.ca/~cnsun/), and my B.Eng. in Mechatronics from McMaster University.
+
+My research focuses on efficient LLMs across the stack, from training (PEFT, optimizers, model merging) to systems (compilers, operator fusion, hardware-aware code generation).
+
 ---
 
 <div class="quote-carousel" id="quote-carousel" data-quotes='{{ site.data.quotes | jsonify }}'>
+  <button type="button" class="quote-arrow" id="quote-prev" aria-label="Previous quote">&lsaquo;</button>
   <blockquote id="quote-text"></blockquote>
+  <button type="button" class="quote-arrow" id="quote-next" aria-label="Next quote">&rsaquo;</button>
 </div>
 
 <script>
@@ -54,11 +64,23 @@ Application
 
   show(idx);
 
+  var timer = null;
+  function step(delta) {
+    idx = (idx + delta + quotes.length) % quotes.length;
+    show(idx);
+  }
+  function restart() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(function () { step(1); }, 6000);
+  }
+
   if (quotes.length > 1) {
-    setInterval(function () {
-      idx = (idx + 1) % quotes.length;
-      show(idx);
-    }, 6000);
+    document.getElementById('quote-prev').onclick = function () { step(-1); restart(); };
+    document.getElementById('quote-next').onclick = function () { step(1); restart(); };
+    restart();
+  } else {
+    document.getElementById('quote-prev').style.visibility = 'hidden';
+    document.getElementById('quote-next').style.visibility = 'hidden';
   }
 })();
 </script>
@@ -92,6 +114,8 @@ Application
 </div>
 {% endfor %}
 </div>
+
+<p class="pub-legend">* co-first author</p>
 
 <script>
 function showPubs(id) {

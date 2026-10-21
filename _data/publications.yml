@@ -1,20 +1,49 @@
-- title: "Fusion R1: Empower PyTorch Graph Fusion via LLM with Reinforcement Learning"
-  venue: "Pending submission to NeurIPS"
+- title: "How Much Operator Fusion Is Left? A Compiler-Side Bound and a Learned Graph-Level Policy"
+  authors: "Xueyan Zhang, et al."
+  venue: "Preprint"
   thumb: "/assets/images/fusionr1-thumb.png"
   selected: false
   links: []
 
-- title: "IntentEval: Whether Large Language Models Answer What Users Actually Mean"
-  venue: "Pending submission to EMNLP"
+- title: "HR-Merge: Model Merging with Headroom-Weighted Residual Refinement"
+  authors: "Xueyan Zhang*, et al."
+  venue: "Preprint"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  selected: false
+  links: []
+
+- title: "TARE-Muon: Timescale-Aware Row-wise Energy Redistribution via Long- and Short-Term Momentum"
+  venue: "Preprint"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  selected: false
+  links: []
+
+- title: "ATPO: Adaptive Token Aggregation for Policy Optimization"
+  venue: "Preprint"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  selected: false
+  links: []
+
+- title: "IntentEval: Do LLMs Answer What Users Actually Mean?"
+  venue: "Preprint"
   thumb: "/assets/images/intenteval-thumb.png"
   selected: false
   links: []
 
 - title: "Syntactic Prediction through Reinforcement Learning"
-  venue: "Under submission"
+  venue: "Preprint"
   thumb: "/assets/images/syntaxr1-thumb.png"
   selected: false
   links: []
+
+- title: "Can Language Model Understand Word Semantics as A Chatbot? An Empirical Study of Language Model Internal External Mismatch"
+  authors: "Jinman Zhao*, Xueyan Zhang*, Xingyu Yue, Weizhe Chen, Zifan Qian, Ruiyu Wang"
+  venue: "Preprint"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  selected: false
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2409.13972"
 
 - title: "UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT"
   authors: "Xueyan Zhang*, Jinman Zhao*, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang"
@@ -53,15 +82,6 @@
       url: "https://arxiv.org/abs/2403.02615"
     - label: "openreview"
       url: "https://openreview.net/forum?id=wLQ3I0F1oj"
-
-- title: "Word Semantics Consistency in Language Models"
-  authors: "Xueyan Zhang*, Jinman Zhao*, Xingyu Wang, et al."
-  venue: "Quantified the internal-external knowledge mismatch for word semantics across Encoder, Decoder, and Encoder-Decoder LMs."
-  thumb: "/assets/images/paper-thumb-placeholder.svg"
-  selected: false
-  links:
-    - label: "arXiv"
-      url: "https://arxiv.org/abs/2409.13972"
 
 - title: "On the Caching Schemes to Speed Up Program Reduction"
   authors: "Yongqiang Tian, Xueyan Zhang, Yiwen Dong, et al."

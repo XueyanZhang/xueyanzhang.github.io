@@ -33,7 +33,7 @@ Application
 
 ## Biography
 
-I am currently a Research Assistant at the University of Toronto, working with [Prof. Gerald Penn](https://www.cs.toronto.edu/~gpenn/) and Jinman Zhao. Before that, I spent 3+ years as a Senior NPU Compiler Engineer at the Toronto Heterogeneous Compiler Lab, optimizing LLMs on a production NPU with LLVM/MLIR.
+I am currently a Research Assistant at the University of Toronto, working with [Prof. Gerald Penn](https://www.cs.toronto.edu/~gpenn/) and [Dr. Jinman Zhao](https://zhaojinm.github.io/). Before that, I spent 3+ years as a Senior NPU Compiler Engineer at the Toronto Heterogeneous Compiler Lab, optimizing LLMs on a production NPU with LLVM/MLIR.
 
 I received my MMath in Computer Science from the University of Waterloo, advised by [Prof. Chengnian Sun](https://cs.uwaterloo.ca/~cnsun/), and my B.Eng. in Mechatronics from McMaster University.
 
@@ -87,56 +87,26 @@ My research focuses on efficient LLMs across the stack, from training (PEFT, opt
 
 ---
 
-## Publications &nbsp;<span class="pub-toggle">(<a href="javascript:void(0)" id="pub-toggle-selected" onclick="showPubs(0)">show selected</a> / <a href="javascript:void(0)" id="pub-toggle-all" onclick="showPubs(1)">show all</a>)</span>
+## Publications
 
-<div id="pubs-selected" class="pub-list">
-{% for pub in site.data.publications %}{% if pub.selected %}<div class="pub-entry">
+<p class="pub-legend">* co-first author</p>
+
+{% assign pub_groups = "preprint:Preprints,conference:Conference,journal:Journal,workshop:Workshop" | split: "," %}
+{% for group in pub_groups %}{% assign g = group | split: ":" %}{% assign pubs = site.data.publications | where: "type", g[0] %}{% if pubs.size > 0 %}
+<h3 class="pub-group">{{ g[1] }}</h3>
+<div class="pub-list">
+{% for pub in pubs %}<div class="pub-entry">
   <img class="pub-thumb" src="{{ pub.thumb | relative_url }}" alt="paper thumbnail">
   <div class="pub-text">
     <p class="pub-title">{{ pub.title }}</p>
-    {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
-    <p class="pub-venue"><em>{{ pub.venue }}</em></p>
-    {% if pub.links.size > 0 %}<p class="pub-links">{% for link in pub.links %}{% unless forloop.first %} | {% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</p>{% endif %}
-  </div>
-</div>
-{% endif %}{% endfor %}
-</div>
-
-<div id="pubs-all" class="pub-list hidden">
-{% for pub in site.data.publications %}<div class="pub-entry">
-  <img class="pub-thumb" src="{{ pub.thumb | relative_url }}" alt="paper thumbnail">
-  <div class="pub-text">
-    <p class="pub-title">{{ pub.title }}</p>
-    {% if pub.authors %}<p class="pub-authors">{{ pub.authors }}</p>{% endif %}
+    {% if pub.authors %}<p class="pub-authors">{{ pub.authors | replace: "Xueyan Zhang", "<strong>Xueyan Zhang</strong>" }}</p>{% endif %}
     <p class="pub-venue"><em>{{ pub.venue }}</em></p>
     {% if pub.links.size > 0 %}<p class="pub-links">{% for link in pub.links %}{% unless forloop.first %} | {% endunless %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</p>{% endif %}
   </div>
 </div>
 {% endfor %}
 </div>
-
-<p class="pub-legend">* co-first author</p>
-
-<script>
-function showPubs(id) {
-  var selectedList = document.getElementById('pubs-selected');
-  var allList = document.getElementById('pubs-all');
-  var selectedLink = document.getElementById('pub-toggle-selected');
-  var allLink = document.getElementById('pub-toggle-all');
-  if (id === 0) {
-    selectedList.classList.remove('hidden');
-    allList.classList.add('hidden');
-    selectedLink.classList.add('active');
-    allLink.classList.remove('active');
-  } else {
-    selectedList.classList.add('hidden');
-    allList.classList.remove('hidden');
-    allLink.classList.add('active');
-    selectedLink.classList.remove('active');
-  }
-}
-showPubs(0);
-</script>
+{% endif %}{% endfor %}
 
 ---
 
@@ -178,3 +148,19 @@ showPubs(0);
   });
 })();
 </script>
+
+
+---
+
+## Academic Services
+
+{% for s in site.data.services %}<p class="svc-line"><strong>{{ s.role }}</strong>: {{ s.venues }}</p>
+{% endfor %}
+
+---
+
+## Teaching
+
+<ul class="teach-list">
+{% for t in site.data.teaching %}<li><strong>{{ t.role }}</strong>, {{ t.course }}, {{ t.school }}{% if t.term != "" %} <span class="teach-term">({{ t.term }})</span>{% endif %}</li>
+{% endfor %}</ul>

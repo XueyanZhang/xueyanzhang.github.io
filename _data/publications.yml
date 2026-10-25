@@ -30,12 +30,6 @@
   type: preprint
   links: []
 
-- title: "Syntactic Prediction through Reinforcement Learning"
-  venue: "Preprint"
-  thumb: "/assets/images/syntaxr1-thumb.png"
-  type: preprint
-  links: []
-
 - title: "Can Language Model Understand Word Semantics as A Chatbot? An Empirical Study of Language Model Internal External Mismatch"
   authors: "Xueyan Zhang*, Jinman Zhao*, Xingyu Yue, Weizhe Chen, Zifan Qian, Ruiyu Wang"
   venue: "Preprint"
@@ -53,6 +47,13 @@
   links:
     - label: "project"
       url: "https://e2a.dev/"
+
+- title: "Syntactic Prediction through Reinforcement Learning"
+  authors: "Jinman Zhao, Yining Wang, Jiahe Liu, Xueyan Zhang, Linbo Cao, Jiakang Huang, Yiren Zhao, Renyi Cai, YiTian Ding, Gerald Penn"
+  venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+  thumb: "/assets/images/syntaxr1-thumb.png"
+  type: conference
+  links: []
 
 - title: "UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT"
   authors: "Xueyan Zhang*, Jinman Zhao*, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang"

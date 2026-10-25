@@ -252,6 +252,17 @@ a {
   .section-body > .teach-school {
     margin-left: 0;
   }
+  .teach-table {
+    width: 100%;
+    font-size: 0.9rem;
+
+    td {
+      padding-right: 8px;
+    }
+    .teach-term {
+      white-space: normal;
+    }
+  }
 }
 
 // Shared thumbnail-row layout, used by Publications and Projects entries

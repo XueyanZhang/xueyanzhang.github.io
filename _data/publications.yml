@@ -5,13 +5,6 @@
   type: preprint
   links: []
 
-- title: "HR-Merge: Model Merging with Headroom-Weighted Residual Refinement"
-  authors: "Xueyan Zhang*, et al."
-  venue: "Preprint"
-  thumb: "/assets/images/paper-thumb-placeholder.svg"
-  type: preprint
-  links: []
-
 - title: "TARE-Muon: Timescale-Aware Row-wise Energy Redistribution via Long- and Short-Term Momentum"
   venue: "Preprint"
   thumb: "/assets/images/paper-thumb-placeholder.svg"
@@ -74,6 +67,13 @@
   links:
     - label: "anthology"
       url: "https://aclanthology.org/2025.emnlp-main.321/"
+
+- title: "HR-Merge: Model Merging with Headroom-Weighted Residual Refinement"
+  authors: "Jiakang Huang*, Xueyan Zhang*, Renyi Cai, Jingcheng Niu, Jiaru Li, Yining Wang, Josh Zhang, Jiahe Jiang, Jinman Zhao, Gerald Penn, Baharan Mirzasoleiman"
+  venue: "NeurIPS 2026 NeuralArtifacts Workshop (Poster)"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  type: workshop
+  links: []
 
 - title: "Ethical and Robust Large Language Models"
   authors: "Linbo Cao, Jinman Zhao, Xueyan Zhang, et al."

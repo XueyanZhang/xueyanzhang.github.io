@@ -33,7 +33,7 @@ Application
 
 ## Biography
 
-I am currently a Volunteer Research Assistant at the University of Toronto, working with [Prof. Gerald Penn](https://www.cs.toronto.edu/~gpenn/) and [Dr. Jinman Zhao](https://zhaojinm.github.io/). Before that, I spent 3+ years as a Senior NPU Compiler Engineer at the Toronto Heterogeneous Compiler Lab, optimizing LLMs on a production NPU with LLVM/MLIR.
+I am currently a Volunteer Research Assistant at the University of Toronto, working with [Prof. Gerald Penn](https://www.cs.toronto.edu/~gpenn/) and [Dr. Jinman Zhao](https://zhaojinm.github.io/). Before that, I spent 3+ years as a Senior NPU Compiler Engineer at the Toronto Heterogeneous Compiler Lab, optimizing LLMs on a production NPU with LLVM/MLIR. I also collaborate closely with [Jiakang (Daniel) Huang](https://danielhuangjiakang.github.io/) and [Prof. Baharan Mirzasoleiman](https://baharanm.github.io/) (UCLA) on model merging.
 
 I received my MMath in Computer Science from the University of Waterloo, advised by [Prof. Chengnian Sun](https://cs.uwaterloo.ca/~cnsun/), and my B.Eng. in Mechatronics from McMaster University.
 

@@ -45,6 +45,15 @@
     - label: "arXiv"
       url: "https://arxiv.org/abs/2409.13972"
 
+- title: "e2a: A Secure Agent-Native Email Gateway with Phishing and Prompt-Injection Defense"
+  authors: "Josh Zhang, Hongyuan Jia, Xueyan Zhang, Hanzhi Tan, Jingzhuo Hu"
+  venue: "Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP 2026 Demo)"
+  thumb: "/assets/images/paper-thumb-placeholder.svg"
+  type: conference
+  links:
+    - label: "project"
+      url: "https://e2a.dev/"
+
 - title: "UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT"
   authors: "Xueyan Zhang*, Jinman Zhao*, Zhifei Yang, Yibo Zhong, Shuhao Guan, Linbo Cao, Yining Wang"
   venue: "Annual Meeting of the Association for Computational Linguistics (ACL 2025)"

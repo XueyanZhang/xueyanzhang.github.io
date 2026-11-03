@@ -46,6 +46,50 @@
     </div>
   </footer>
 
+  <!-- GoatCounter: cookieless analytics (pageviews, section views, link clicks) -->
+  <script data-goatcounter="https://xueyanz.goatcounter.com/count"
+    async src="https://gc.zgo.at/count.v5.js" crossorigin="anonymous"
+    integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
+  <script>
+    (function () {
+      function track(path, title) {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: path, title: title, event: true });
+        } else {
+          setTimeout(function () { track(path, title); }, 500);
+        }
+      }
+
+      // Count each section heading once, the first time it scrolls into view
+      if ('IntersectionObserver' in window) {
+        var seen = {};
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            var id = entry.target.id;
+            if (entry.isIntersecting && !seen[id]) {
+              seen[id] = true;
+              track('section-' + id, entry.target.textContent);
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        document.querySelectorAll('main h2[id]').forEach(function (h) { observer.observe(h); });
+      }
+
+      // Count CV/PDF downloads and outbound link clicks
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a) return;
+        var url = new URL(a.href, location.href);
+        if (/\.pdf$/i.test(url.pathname)) {
+          track('download-' + url.pathname.split('/').pop(), a.textContent.trim());
+        } else if (url.host && url.host !== location.host) {
+          track('click-' + url.host + url.pathname, a.textContent.trim() || url.host);
+        }
+      });
+    })();
+  </script>
+
 </body>
 
 </html>
